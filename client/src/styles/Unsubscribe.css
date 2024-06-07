@@ -1,0 +1,52 @@
+
+
+.containerUnsubscribe{
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(207,155,155,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.contentUnsubscribe{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.error{
+    color: #eaff00;
+    text-align: center;
+}
+
+.contentUnsubscribe h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.contentUnsubscribe input{
+    width: 30%;
+    height: 50px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contentUnsubscribe button{
+    width: 30%;
+    height: 50px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    background: linear-gradient(130deg, rgb(86, 86, 235), rgb(5,5,199));
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.contentUnsubscribe button:hover{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,6,16,1) 0%, rgba(0,212,255,1) 100%);
+}

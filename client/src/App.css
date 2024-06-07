@@ -1,0 +1,36 @@
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: #b1a5aa;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: "Rubik", sans-serif;
+    margin: 0px 24px;
+    color: #c6fb3f;
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: background-color 1s ease; /* Add this line */
+    border-radius: 20px;
+}
+
+nav a:hover{
+    background-color: #c6fb3f;
+    border-radius: 20px;
+    color: #3f5efb;
+}
+
+nav img{
+    margin-left:30px ;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#linkNav{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
